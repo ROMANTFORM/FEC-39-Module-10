@@ -309,9 +309,15 @@
 }
 
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+<<<<<<< HEAD
     .header {
         background-image: url(../img/bg@2x.jpg);
     }
+=======
+    /* .header {
+        background-image: url(/img/bg@2x.jpg);
+    } */
+>>>>>>> 4fab8e5540633eabc07f5b12d57e0dba2a072fb5
     .photo {
         background-image: url(../img/icon/alarm@2x.png);
     }
