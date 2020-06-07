@@ -12,14 +12,14 @@
     text-transform: uppercase;
 }
 .header {
-    background-image: url(/img/bg.jpg);
+    background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 1000px;
     padding-top: 28px;
     margin-bottom: 46px;
 }
-.herder__wrapper,
+.header__wrapper,
 .service,
 .team,
 .footer {
@@ -310,7 +310,7 @@
 
 @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .header {
-        background-image: url(/img/bg@2x.jpg);
+        background-image: url(../img/bg@2x.jpg);
     }
     .photo {
         background-image: url(../img/icon/alarm@2x.png);
